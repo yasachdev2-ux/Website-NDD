@@ -1,0 +1,20 @@
+﻿.footer { background: var(--black); color: var(--white); }
+.top {max-width: var(--max-w); margin: 0 auto; padding: 64px 52px 40px;display: flex; justify-content: space-between; gap: 48px; flex-wrap: wrap;align-items:flex-start;}
+.logo{margin-bottom:24px;}
+.tagline{margin-bottom:22px;}
+.sub{margin-bottom:18px;}
+.location{margin-top:0;}
+.nav { display: flex; gap:64px;}
+.col h5 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255,255,255,0.4); margin-bottom: 14px; }
+.col li { margin-bottom: 16px; }
+.col a { font-size: 0.84rem; color: rgba(255,255,255,0.75); transition: color 0.18s;line-height:1.8; }
+.col a:hover { color: var(--brand-orange); }
+.bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;} 
+@media (max-width: 768px) {
+  .top { padding: 24px 16px 27px; flex-direction: column; gap: 32px; }
+  .bottom { flex-direction: column; gap: 8px; padding: 10px 20px; text-align: center; }
+}
+
+.footerLogo { height: 104px; width: auto; margin-bottom: 16px; }
+
+
